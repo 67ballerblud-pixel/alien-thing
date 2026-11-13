@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "alienskin",
+  "version": "${version}",
+  "name": "Alien Skin",
+  "description": "Client-side: turns you (or everyone) into a grey alien. /alienskin self|all|off",
+  "authors": ["DILLYY_MC"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.dilly.alienskin.AlienSkinClient"] },
+  "mixins": ["alienskin.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
